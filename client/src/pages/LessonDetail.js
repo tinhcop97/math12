@@ -34,6 +34,62 @@ const LessonDetail = () => {
                     "Diện tích toàn phần của hình chóp: \\(S_{tp} = S_{đáy} + S_{xq}\\)"
                 ]
             }
+        },
+        "Ôn tập cuối năm": {
+            1: {
+                title: "Ôn tập giải tích",
+                content: "Tổng hợp kiến thức giải tích 12: Khảo sát hàm số, hàm mũ - logarit, nguyên hàm - tích phân.",
+                examples: [],
+                formulas: []
+            },
+            2: {
+                title: "Ôn tập hình học",
+                content: "Tổng hợp kiến thức hình học 12: Khối đa diện, mặt cầu, mặt nón, mặt trụ, tọa độ trong không gian.",
+                examples: [],
+                formulas: []
+            },
+            3: {
+                title: "Đề thi THPT Quốc Gia năm 2024",
+                content: "Đề thi chính thức kỳ thi THPT Quốc Gia năm 2024 - Môn Toán",
+                examples: [
+                    "<strong>Câu 1:</strong> Cho hàm số \\(y = f(x)\\) có đạo hàm \\(f'(x) = x^2(x-1)(x+2)\\). Hàm số đã cho đồng biến trên khoảng nào?",
+                    "<strong>Câu 2:</strong> Tính tích phân \\(I = \\int_0^1 x e^{x^2} dx\\)",
+                    "<strong>Câu 3:</strong> Trong không gian \\(Oxyz\\), cho mặt phẳng \\((P): 2x - y + 3z - 5 = 0\\). Véctơ nào sau đây là véctơ pháp tuyến của \\((P)\\)?",
+                    "<strong>Câu 4:</strong> Tìm giá trị lớn nhất của hàm số \\(y = x^3 - 3x^2 + 2\\) trên đoạn \\([0; 3]\\)"
+                ],
+                formulas: [
+                    "<a href='#' class='text-primary'>📄 Download đề thi năm 2024 (PDF)</a>",
+                    "<a href='#' class='text-primary'>📄 Download đáp án chi tiết năm 2024 (PDF)</a>"
+                ]
+            },
+            4: {
+                title: "Đề thi THPT Quốc Gia năm 2023",
+                content: "Đề thi chính thức kỳ thi THPT Quốc Gia năm 2023 - Môn Toán",
+                examples: [
+                    "<strong>Câu 1:</strong> Cho hàm số \\(y = \\frac{2x-1}{x+1}\\). Tiệm cận ngang của đồ thị hàm số là?",
+                    "<strong>Câu 2:</strong> Tính đạo hàm của hàm số \\(y = \\ln(x^2 + 1)\\)",
+                    "<strong>Câu 3:</strong> Thể tích khối lăng trụ có diện tích đáy \\(S = 10\\) và chiều cao \\(h = 6\\) là?",
+                    "<strong>Câu 4:</strong> Giải phương trình \\(2^{x+1} = 8\\)"
+                ],
+                formulas: [
+                    "<a href='#' class='text-primary'>📄 Download đề thi năm 2023 (PDF)</a>",
+                    "<a href='#' class='text-primary'>📄 Download đáp án chi tiết năm 2023 (PDF)</a>"
+                ]
+            },
+            5: {
+                title: "Đề thi THPT Quốc Gia năm 2022",
+                content: "Đề thi chính thức kỳ thi THPT Quốc Gia năm 2022 - Môn Toán",
+                examples: [
+                    "<strong>Câu 1:</strong> Tìm tập xác định của hàm số \\(y = \\sqrt{4-x^2}\\)",
+                    "<strong>Câu 2:</strong> Cho số phức \\(z = 3 + 4i\\). Tính môđun của \\(z\\)",
+                    "<strong>Câu 3:</strong> Tính nguyên hàm \\(\\int \\cos(2x) dx\\)",
+                    "<strong>Câu 4:</strong> Trong không gian, cho hai điểm \\(A(1;2;3)\\) và \\(B(4;5;6)\\). Tính khoảng cách \\(AB\\)"
+                ],
+                formulas: [
+                    "<a href='#' class='text-primary'>📄 Download đề thi năm 2022 (PDF)</a>",
+                    "<a href='#' class='text-primary'>📄 Download đáp án chi tiết năm 2022 (PDF)</a>"
+                ]
+            }
         }
     };
 
