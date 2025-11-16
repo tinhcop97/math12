@@ -2,6 +2,9 @@ import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import LessonDetail from './pages/LessonDetail';
+import ExamList from './pages/ExamList';
+import ExamCodes from './pages/ExamCodes';
+import ExamQuiz from './pages/ExamQuiz';
 
 // Components
 import Home from './pages/Home';
@@ -79,6 +82,9 @@ function App() {
           <Route path="/lessons" element={<Lessons />} />
           <Route path="/lessons/:subjectId/:lessonId" element={<LessonDetail />} />
           <Route path="/exercises" element={<Exercises />} />
+          <Route path="/exams" element={<ExamList />} />
+          <Route path="/exams/:year" element={<ExamCodes />} />
+          <Route path="/exams/:year/:examId" element={<ExamQuiz />} />
         </Routes>
       </MathJaxWrapper>
     </Router>

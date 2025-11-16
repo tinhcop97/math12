@@ -12,6 +12,7 @@ const Navbar = () => {
           <Nav className="me-auto">
             <Nav.Link as={Link} to="/lessons">Bài giảng</Nav.Link>
             <Nav.Link as={Link} to="/exercises">Bài tập</Nav.Link>
+            <Nav.Link as={Link} to="/exams">Đề thi THPT</Nav.Link>
           </Nav>
         </BootstrapNavbar.Collapse>
       </Container>
