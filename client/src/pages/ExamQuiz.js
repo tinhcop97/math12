@@ -214,12 +214,15 @@ const ExamQuiz = () => {
                     <Form.Control
                       type="number"
                       step="any"
-                      placeholder="Nhập số..."
+                      placeholder="Ví dụ: 1234 hoặc 12.34"
                       value={answers[q.id] || ''}
                       onChange={(e) => handleAnswerChange(q.id, e.target.value)}
                       disabled={showResults}
                       style={{ maxWidth: '300px' }}
                     />
+                    <Form.Text className="text-muted">
+                      Dùng dấu chấm (.) cho số thập phân
+                    </Form.Text>
                   </Form.Group>
                   {showResults && (
                     <Alert variant={answers[q.id] == q.correctAnswer ? 'success' : 'danger'}>
